@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+  background-image: url("/public/background-new.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gradient-btn {
+  font-family: Kaushan Script;
+  font-weight: 400;
+  line-height: 29.02px;
+  text-align: center;
+  color: white;
+  padding: 4px 20px;
+  background: linear-gradient(to right, #479863, #234d95);
+  background-image: linear-gradient(to right, #479863, #234d95);
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #d0e0f3;
+  border-imagesource: linear-gradient(0deg, #d0e0f3, #d0e0f3),
+    radial-gradient(
+      124.52% 124.52% at -3.99% 35.36%,
+      #00d1ff 0%,
+      rgba(0, 209, 255, 0) 69.33%
+    ),
+    radial-gradient(
+      73.57% 73.57% at 0% 67.49%,
+      #e478ff 0%,
+      rgba(86, 102, 239, 0) 69.33%
+    ),
+    radial-gradient(
+      88.4% 88.4% at 86.12% 6.46%,
+      #72e98a 0%,
+      rgba(114, 233, 138, 0) 56.56%
+    ),
+    radial-gradient(
+      108.75% 108.75% at 117.11% 81.18%,
+      #b566e6 0%,
+      rgba(181, 102, 230, 0) 77.6%
+    ),
+    radial-gradient(
+      58.56% 126.24% at 31.37% 0%,
+      rgba(255, 255, 255, 0.46) 0%,
+      rgba(255, 255, 255, 0) 77.6%
+    ),
+    radial-gradient(
+      42.61% 55.51% at 60.46% 100%,
+      rgba(255, 255, 255, 0.21) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  box-shadow: 0px 0px 2px 0px #00ff93, 0px 2px 1px 0px #e478ff;
+}
+
+.gradient-box {
+  @apply bg-[#E478FF]/30 text-white font-berkshire font-[500] rounded-xl backdrop-blur-lg;
+
+  border: 0.8px solid #ffffff;
+  border-imagesource: linear-gradient(0deg, #d0e0f3, #d0e0f3),
+    radial-gradient(
+      124.52% 124.52% at -3.99% 35.36%,
+      #00d1ff 0%,
+      rgba(0, 209, 255, 0) 69.33%
+    ),
+    radial-gradient(
+      73.57% 73.57% at 0% 67.49%,
+      #e478ff 0%,
+      rgba(86, 102, 239, 0) 69.33%
+    ),
+    radial-gradient(
+      88.4% 88.4% at 86.12% 6.46%,
+      #72e98a 0%,
+      rgba(114, 233, 138, 0) 56.56%
+    ),
+    radial-gradient(
+      108.75% 108.75% at 117.11% 81.18%,
+      #b566e6 0%,
+      rgba(181, 102, 230, 0) 77.6%
+    ),
+    radial-gradient(
+      58.56% 126.24% at 31.37% 0%,
+      rgba(255, 255, 255, 0.46) 0%,
+      rgba(255, 255, 255, 0) 77.6%
+    ),
+    radial-gradient(
+      42.61% 55.51% at 60.46% 100%,
+      rgba(255, 255, 255, 0.21) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+
+  box-shadow: 0px 0px 5px 0px #00ff93, 0px 4px 5px 0px #e478ff;
+}
